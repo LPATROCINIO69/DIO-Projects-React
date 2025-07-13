@@ -23,6 +23,19 @@
             color: white;
             margin:10px;
         }
+        .item:hover{
+            background-color: red;
+            cursor:pointer;
+        }
+        input:focus {
+            border:2px blue;
+            color:blue;
+            background-color: lightgray;
+        }
+        .item:first-child:hover, .item:last-child:hover{
+            background-color: green;
+        }
+
     </style>
 
 </head>
@@ -32,9 +45,14 @@
     <h2>FlexBox</h2>
     <div class="flex">
         <div class="item">a</div>
-        <div class="item">b</div>
+        <div class="item">b1</div>
+        <div class="item">b2</div>
+        <div class="item">b3</div>
+        <div class="item">b4</div>
         <div class="item">c</div>
-
+    </div>
+    <div>
+        <input />
     </div>
 </body>
 
